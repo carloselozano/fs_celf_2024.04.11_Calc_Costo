@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+.encabezado {
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    max-width: 600px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0cfb0;
+    height: 40px;
+
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 600px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccddec;
+}
+
+h1 {
+    color: #99040b;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}

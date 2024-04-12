@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalentoTech Curso- Carlos Lozano</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="contenedor"> 
+        <H1>EJERCICIO DE CALCULO DE COSTO </H1>
+    </div>
+
+    <div class="contenedor">
+       <form>
+          <input type="text" id="personaCotiza" name="personaCotiza" placeholder="Ingrese Nombre Persona Cotiza">
+          <p id="errorPersonaCotiza" style="display:none"></p>
+          <br>
+          
+          <input type="text" id="emailCotiza" name="emailCotiza" placeholder="Ingrese Dir Email Persona Cotiza">
+          <p id="errorEmailCotiza" style="display:none"></p>
+          <br>
+          
+          <input type="text" id="peso" name="peso" placeholder="Peso del Paquete">
+          <p id="errorPeso" style="display:none"></p>
+          <br>
+          
+          <select id="ciudadOrigen" name="ciudadOrigen">
+            <option value="" disabled selected>Seleccione una ciudad origen</option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Medellín">Medellín</option>
+            <option value="Cali">Cali</option>
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="Cartagena">Cartagena</option>
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Santa Marta">Santa Marta</option>
+            <option value="Manizales">Manizales</option>
+            <option value="Pereira">Pereira</option>
+            <option value="Cúcuta">Cúcuta</option>
+          </select>
+          <br>
+          
+                  
+          
+          <p id="errorCiudadOrigen" style="display:none"></p>
+          <br>
+          
+          <select id="ciudadDestino" name="ciudadDestino">
+            <option value="" disabled selected>Seleccione una ciudad destino</option>
+            <option value="Bogotá">Bogotá</option>
+            <option value="Medellín">Medellín</option>
+            <option value="Cali">Cali</option>
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="Cartagena">Cartagena</option>
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Santa Marta">Santa Marta</option>
+            <option value="Manizales">Manizales</option>
+            <option value="Pereira">Pereira</option>
+            <option value="Cúcuta">Cúcuta</option>
+          </select>
+          <br>
+          <p id="errorCiudadDestino" style="display:none"></p>
+
+          <br>
+          <br>
+          <p id="respuestaCotizacion"style="display:none"></p>
+
+        </form>
+    </div>
+    
+    <div class="contenedor">
+        <button id="btnEnviar">Enviar</button>
+    </div>
+    
+    <script src='main.js'></script>
+
+</body>
+
+</html>
